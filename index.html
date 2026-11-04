@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Strategic Global Watch — veille quotidienne</title>
+<style>
+  :root {
+    --ink: #1a2233;
+    --muted: #5b6474;
+    --accent: #b34a00;
+    --accent-soft: #fdeee2;
+    --line: #e3e6ec;
+    --bg: #f7f6f3;
+    --card: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.6;
+  }
+  .page { max-width: 780px; margin: 0 auto; padding: 32px 20px 64px; }
+  header.masthead {
+    border-bottom: 3px double var(--ink);
+    padding-bottom: 16px;
+    margin-bottom: 24px;
+  }
+  header.masthead .kicker {
+    font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-size: 12px;
+    color: var(--accent);
+    font-weight: 700;
+  }
+  header.masthead h1 { margin: 6px 0 2px; font-size: 34px; line-height: 1.15; }
+  header.masthead .date { color: var(--muted); font-style: italic; }
+  section { margin: 28px 0; }
+  h2 {
+    font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    border-left: 4px solid var(--accent);
+    padding-left: 10px;
+    margin: 0 0 12px;
+  }
+  ul.editions { list-style: none; padding: 0; }
+  ul.editions li {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin: 10px 0;
+  }
+  ul.editions a { color: var(--ink); text-decoration: none; }
+  ul.editions a:hover { color: var(--accent); }
+  ul.editions .day {
+    font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+  }
+  ul.editions .desc { color: var(--muted); font-size: 14px; }
+  .note {
+    background: var(--accent-soft);
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 14px;
+    color: var(--ink);
+  }
+  footer {
+    margin-top: 40px;
+    padding-top: 12px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 13px;
+    font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="masthead">
+    <div class="kicker">Strategic Global Watch — veille stratégique quotidienne</div>
+    <h1>Strategic Global Watch</h1>
+    <div class="date">Chaque édition est générée automatiquement le matin à partir du briefing envoyé par la tâche planifiée Mistral (« Briefing mondial »).</div>
+  </header>
+  <main>
+    <section>
+      <h2>Éditions</h2>
+      <ul class="editions">
+        <li><a href="strategic-global-watch-2026-11-04.html"><span class="day">Mercredi 4 novembre 2026</span><br><span class="desc">Briefing mondial — cinq informations majeures (midterms, Ukraine, Iran, Israël, Pologne), France, Europe, marchés…</span></a></li>
+      </ul>
+    </section>
+    <section>
+      <p class="note">Les éditions quotidiennes sont publiées ici automatiquement, une nouvelle page par jour : <code>strategic-global-watch-AAAA-MM-JJ.html</code>.</p>
+    </section>
+  </main>
+  <footer>
+    Strategic Global Watch · index généré le 4 novembre 2026 · dépôt GitHub : MattJack4269/News
+  </footer>
+</div>
+</body>
+</html>
